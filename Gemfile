@@ -52,5 +52,15 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :test do
+
+  gem 'faker', '~> 1.7.3'
+
+  gem 'rspec-rails', '~> 3.6.0'
+
+  gem 'factory_girl_rails', '~> 4.8.0'
+
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
